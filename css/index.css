@@ -3,21 +3,38 @@ html,body{
 	height: 100%;
 }
 body{
-	background: url(../img/pkq.jpeg) no-repeat;
+	background: url() no-repeat;
 	 background-size: cover;
   	-webkit-background-size: cover;
   	-o-background-size: cover;
   	 background-position: center 0;
+  	 text-align:center;
 }
+
 #head{
+	text-align: center;
 	
 }
+#left{
+	background-color: red;
+	width: 30%;
+	height: 20%;
+	display: inline-block;
+	margin-right: 0;
+	padding-right: 0;
+}
 #body{
+	float: right;
 	background: url(../img/pkq.jpeg) no-repeat;
 	 background-size: cover;
   	-webkit-background-size: cover;
   	-o-background-size: cover;
   	 background-position: center 0;
+  	 padding-left：0; 
+  	 margin-left: 0;
+  	 height: 100%;
+  	 width: 50%;
+  	 /*/*position: fixed;*/绝对定位*/
 }
 @font-face {
 	font-family:myfont;
