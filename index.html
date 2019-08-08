@@ -3,32 +3,45 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Sux</title>
+		<meta name="renderer" content="webkit">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  		<link rel="stylesheet" href="layui/css/layui.css"  media="all">
 		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="layui/layui.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
 	</head>
 	<body>
 		<div id="head">
 			<p id="title">欢迎来访</p>
+			<div>
+				<ul class="layui-nav ">
+				  <li class="layui-nav-item layui-this"><a href="page/body.html" target="aa">这里是个人哦！</a></li>
+				  <li class="layui-nav-item ">
+				    <a href="javascript:;">我知道的一些东西</a>
+				    <dl class="layui-nav-child">
+				      <dd><a href="page/knowledge.html" target="aa">选项1</a></dd>
+				      <dd><a href="page/knowledge1.html" target="aa">选项2</a></dd>
+				      <dd><a href="" target="aa">选项3</a></dd>
+				    </dl>
+				  </li>
+				  <li class="layui-nav-item"><a href="">大数据</a></li>
+				  <li class="layui-nav-item">
+				    <a href="javascript:;">解决方案</a>
+				    <dl class="layui-nav-child">
+				      <dd><a href="">移动模块</a></dd>
+				      <dd><a href="">后台模版</a></dd>
+				      <dd class="layui-this"><a href="">选中项</a></dd>
+				      <dd><a href="">电商平台</a></dd>
+				    </dl>
+				  </li>
+				  <li class="layui-nav-item"><a href="">社区</a></li>
+				</ul>
+			</div>
 		</div>
-		<div id="left">
-			<table>
-				<tr>
-				</tr>
-			</table>
-		</div>
-		<div id="body">
-			<table>
-			<tr>
-				<h1>个人介绍</h1>
-				<td width="60%">
-					<p>成都东软学院</p>
-					<p>b</p>
-					<p>c</p>
-				</td>
-				<td width="40%">
-					<img src="img/pkq.jpeg"  width="40%" height="40%"/>
-				</td>
-			</tr>
-		</table>
-		</div>
+		<div class="main_right">
+            <iframe frameborder="0" scrolling="yes" style="width:80%;height:100%" src="page/body.html" name="aa"></iframe>
+       </div>
 	</body>
 </html>

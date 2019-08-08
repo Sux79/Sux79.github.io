@@ -1,9 +1,11 @@
 html,body{
 	width: 100%;
 	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 body{
-	background: url() no-repeat;
+	background-color: #EAEAEA; 
 	 background-size: cover;
   	-webkit-background-size: cover;
   	-o-background-size: cover;
@@ -17,23 +19,22 @@ body{
 }
 #left{
 	background-color: red;
-	width: 30%;
-	height: 20%;
+	width: 20%;
+	height: auto;
 	display: inline-block;
-	margin-right: 0;
-	padding-right: 0;
+	margin-right: 4%;
+	float: right;
 }
 #body{
-	float: right;
+	
 	background: url(../img/pkq.jpeg) no-repeat;
 	 background-size: cover;
   	-webkit-background-size: cover;
   	-o-background-size: cover;
   	 background-position: center 0;
-  	 padding-left：0; 
-  	 margin-left: 0;
-  	 height: 100%;
-  	 width: 50%;
+  	 margin-left: 15%;
+  	 height: auto;
+  	 width: 60%;
   	 /*/*position: fixed;*/绝对定位*/
 }
 @font-face {
@@ -45,4 +46,13 @@ body{
     font-family:myfont ;
     font-size: 50px;
     
+}
+.layui-main{
+	width: 80%;
+	height: 100%;
+	margin-left: 6%;
+}
+
+.main_right{
+	height: 100%;
 }
