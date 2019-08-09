@@ -28,7 +28,7 @@ body{
 	display: inline-block;
 	margin-right: 4%;
 	float: right;
-	border:1px solid darkslategray;
+	box-shadow: darkgrey 10px 10px 30px 5px ;/*//边框阴影*/
 }
 #body{
 	
