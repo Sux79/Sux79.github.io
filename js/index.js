@@ -12,4 +12,24 @@
 //          var address =$(this).attr("data-src");
 //          $("iframe").attr("src",address);
 //     });
+		
 }(window));
+
+function txinfo(id){ 
+	if('wechat'==id){
+		layer.tips('手机号', $("#tx"), {
+		  tips: [3, '#3595CC'],
+		  time: 4000
+		});
+	}else if('qq'==id){
+		layer.tips('qq做拉取', $("#tx"), {
+		  tips: [3, '#3595CC'],
+		  time: 4000
+		});
+	}else {
+		layer.tips('微博名', $("#tx"), {
+		  tips: [3, '#3595CC'],
+		  time: 4000
+		});
+	}
+}

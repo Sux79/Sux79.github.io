@@ -12,18 +12,23 @@ body{
   	 background-position: center 0;
   	 text-align:center;
 }
-
+#logo{
+	display: inline-block;
+	float: left;
+	padding-top: 1%;
+	padding-left: 2%;
+}
 #head{
 	text-align: center;
-	
 }
 #left{
-	background-color: red;
-	width: 20%;
+	background-color: #f2f2f2;
+	width: auto;
 	height: auto;
 	display: inline-block;
 	margin-right: 4%;
 	float: right;
+	border:1px solid darkslategray;
 }
 #body{
 	
@@ -45,7 +50,8 @@ body{
 #title{
     font-family:myfont ;
     font-size: 50px;
-    
+    background-color: #393D49;
+    color: white;
 }
 .layui-main{
 	width: 80%;
@@ -55,4 +61,8 @@ body{
 
 .main_right{
 	height: 100%;
+}
+
+#left i{
+	font-size: 50%;
 }
